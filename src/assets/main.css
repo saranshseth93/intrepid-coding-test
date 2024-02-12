@@ -1,0 +1,38 @@
+@import './base.css';
+@import './layouts.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+  font-family: Montserrat;
+}
+
+:root {
+  /* Color scheme */
+  --color-primary: #333;
+  --color-secondary: #555;
+  --color-background: #fff;
+
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 44px;
+
+  /* Typography */
+  --font-size-small: 0.8rem;
+  --font-size-base: 1rem;
+  --font-size-large: 1.2rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 1.72rem;
+  --font-size-3xl: 2.2rem;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  /* Other */
+  --border-radius: 4px;
+  --border-radius-medium: 8px;
+}
